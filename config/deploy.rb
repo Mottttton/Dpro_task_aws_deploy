@@ -4,7 +4,7 @@ lock "~> 3.18.1"
 set :application, "blog_app"
 set :repo_url, "https://github.com/Mottttton/Dpro_task_aws_deploy.git"
 set :branch, 'master'
-set :linked_files, %w{config/secrets.yml}
+set :linked_files, %w{config/secrets.yml .env}
 set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets public/uploads}
 set :keep_releases, 5
 set :rbenv_ruby, '3.0.1'
